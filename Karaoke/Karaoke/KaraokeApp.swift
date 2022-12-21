@@ -11,7 +11,7 @@ import SwiftUI
 struct KaraokeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
