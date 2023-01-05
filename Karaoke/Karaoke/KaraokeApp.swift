@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct KaraokeApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                StartView()
+                    .navigationBarHidden(true)
+            }
         }
     }
 }

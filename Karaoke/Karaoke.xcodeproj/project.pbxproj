@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0E386D7296354060034D0CA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386D6296354060034D0CA /* Color.swift */; };
+		D0E386DC296364DC0034D0CA /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386DB296364DC0034D0CA /* CircleButtonView.swift */; };
+		D0E386DE296371520034D0CA /* SongsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386DD296371520034D0CA /* SongsRowView.swift */; };
+		D0E386E029637AC00034D0CA /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386DF29637AC00034D0CA /* PreviewProvider.swift */; };
+		D0E386E329637BFC0034D0CA /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386E229637BFC0034D0CA /* SongModel.swift */; };
+		D0E386E82963891D0034D0CA /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386E72963891D0034D0CA /* SearchBarView.swift */; };
+		D0E386EA296393950034D0CA /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386E9296393950034D0CA /* UIApplication.swift */; };
+		D0E386ED29639BA40034D0CA /* SongDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386EC29639BA40034D0CA /* SongDataService.swift */; };
+		D0E386F02965EA8B0034D0CA /* SongList.json in Resources */ = {isa = PBXBuildFile; fileRef = D0E386EF2965EA8B0034D0CA /* SongList.json */; };
+		D0E386F6296614D70034D0CA /* SongOptionsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386F5296614D70034D0CA /* SongOptionsModal.swift */; };
+		D0E386F8296646490034D0CA /* GreenButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386F7296646490034D0CA /* GreenButtonView.swift */; };
+		D0E386FC296655420034D0CA /* SongLyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E386FB296655420034D0CA /* SongLyrics.swift */; };
 		D0EBCE2A29538959000493BC /* KaraokeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE2929538959000493BC /* KaraokeApp.swift */; };
-		D0EBCE2C29538959000493BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE2B29538959000493BC /* ContentView.swift */; };
+		D0EBCE2C29538959000493BC /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE2B29538959000493BC /* MainScreenView.swift */; };
 		D0EBCE2E29538959000493BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EBCE2D29538959000493BC /* Assets.xcassets */; };
 		D0EBCE3229538959000493BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EBCE3129538959000493BC /* Preview Assets.xcassets */; };
 		D0EBCE3C2953895A000493BC /* KaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE3B2953895A000493BC /* KaraokeTests.swift */; };
 		D0EBCE462953895A000493BC /* KaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE452953895A000493BC /* KaraokeUITests.swift */; };
 		D0EBCE482953895A000493BC /* KaraokeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE472953895A000493BC /* KaraokeUITestsLaunchTests.swift */; };
+		D0EBCE582953964C000493BC /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE572953964C000493BC /* MainScreenViewModel.swift */; };
+		D0EBCE662953AA5C000493BC /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCE652953AA5C000493BC /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0E386D6296354060034D0CA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D0E386DB296364DC0034D0CA /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		D0E386DD296371520034D0CA /* SongsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsRowView.swift; sourceTree = "<group>"; };
+		D0E386DF29637AC00034D0CA /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		D0E386E229637BFC0034D0CA /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		D0E386E72963891D0034D0CA /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		D0E386E9296393950034D0CA /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		D0E386EC29639BA40034D0CA /* SongDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDataService.swift; sourceTree = "<group>"; };
+		D0E386EF2965EA8B0034D0CA /* SongList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SongList.json; sourceTree = "<group>"; };
+		D0E386F5296614D70034D0CA /* SongOptionsModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongOptionsModal.swift; sourceTree = "<group>"; };
+		D0E386F7296646490034D0CA /* GreenButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenButtonView.swift; sourceTree = "<group>"; };
+		D0E386FB296655420034D0CA /* SongLyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLyrics.swift; sourceTree = "<group>"; };
 		D0EBCE2629538959000493BC /* Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EBCE2929538959000493BC /* KaraokeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeApp.swift; sourceTree = "<group>"; };
-		D0EBCE2B29538959000493BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0EBCE2B29538959000493BC /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		D0EBCE2D29538959000493BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0EBCE2F29538959000493BC /* Karaoke.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Karaoke.entitlements; sourceTree = "<group>"; };
 		D0EBCE3129538959000493BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +71,8 @@
 		D0EBCE412953895A000493BC /* KaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EBCE452953895A000493BC /* KaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITests.swift; sourceTree = "<group>"; };
 		D0EBCE472953895A000493BC /* KaraokeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0EBCE572953964C000493BC /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		D0EBCE652953AA5C000493BC /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +100,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0E386D429633BCB0034D0CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0E386EE2965E7CE0034D0CA /* FakeData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0E386D5296353DA0034D0CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0E386D6296354060034D0CA /* Color.swift */,
+				D0E386DF29637AC00034D0CA /* PreviewProvider.swift */,
+				D0E386E9296393950034D0CA /* UIApplication.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0E386D8296363220034D0CA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBCE642953AA36000493BC /* Components */,
+				D0EBCE5D2953A976000493BC /* Start */,
+				D0EBCE5929539B26000493BC /* MainScreen */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D0E386E129637BD00034D0CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0E386E229637BFC0034D0CA /* SongModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0E386EB29639B660034D0CA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D0E386EC29639BA40034D0CA /* SongDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D0E386EE2965E7CE0034D0CA /* FakeData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FakeData;
+			sourceTree = "<group>";
+		};
 		D0EBCE1D29538959000493BC = {
 			isa = PBXGroup;
 			children = (
+				D0E386EF2965EA8B0034D0CA /* SongList.json */,
 				D0EBCE2829538959000493BC /* Karaoke */,
 				D0EBCE3A2953895A000493BC /* KaraokeTests */,
 				D0EBCE442953895A000493BC /* KaraokeUITests */,
@@ -95,10 +175,14 @@
 		D0EBCE2829538959000493BC /* Karaoke */ = {
 			isa = PBXGroup;
 			children = (
-				D0EBCE2929538959000493BC /* KaraokeApp.swift */,
-				D0EBCE2B29538959000493BC /* ContentView.swift */,
+				D0E386D5296353DA0034D0CA /* Extensions */,
+				D0E386EB29639B660034D0CA /* Services */,
+				D0E386E129637BD00034D0CA /* Models */,
+				D0E386D8296363220034D0CA /* Core */,
+				D0E386D429633BCB0034D0CA /* Resources */,
 				D0EBCE2D29538959000493BC /* Assets.xcassets */,
 				D0EBCE2F29538959000493BC /* Karaoke.entitlements */,
+				D0EBCE2929538959000493BC /* KaraokeApp.swift */,
 				D0EBCE3029538959000493BC /* Preview Content */,
 			);
 			path = Karaoke;
@@ -127,6 +211,60 @@
 				D0EBCE472953895A000493BC /* KaraokeUITestsLaunchTests.swift */,
 			);
 			path = KaraokeUITests;
+			sourceTree = "<group>";
+		};
+		D0EBCE5529539605000493BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBCE2B29538959000493BC /* MainScreenView.swift */,
+				D0E386DD296371520034D0CA /* SongsRowView.swift */,
+				D0E386F5296614D70034D0CA /* SongOptionsModal.swift */,
+				D0E386FB296655420034D0CA /* SongLyrics.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0EBCE5629539611000493BC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBCE572953964C000493BC /* MainScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D0EBCE5929539B26000493BC /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBCE5529539605000493BC /* Views */,
+				D0EBCE5629539611000493BC /* ViewModels */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		D0EBCE5D2953A976000493BC /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBCE622953AA20000493BC /* View */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		D0EBCE622953AA20000493BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0EBCE652953AA5C000493BC /* StartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0EBCE642953AA36000493BC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0E386E72963891D0034D0CA /* SearchBarView.swift */,
+				D0E386DB296364DC0034D0CA /* CircleButtonView.swift */,
+				D0E386F7296646490034D0CA /* GreenButtonView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E386F02965EA8B0034D0CA /* SongList.json in Resources */,
 				D0EBCE3229538959000493BC /* Preview Assets.xcassets in Resources */,
 				D0EBCE2E29538959000493BC /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +398,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0EBCE2C29538959000493BC /* ContentView.swift in Sources */,
+				D0E386E029637AC00034D0CA /* PreviewProvider.swift in Sources */,
+				D0E386ED29639BA40034D0CA /* SongDataService.swift in Sources */,
+				D0E386F8296646490034D0CA /* GreenButtonView.swift in Sources */,
+				D0E386EA296393950034D0CA /* UIApplication.swift in Sources */,
+				D0E386F6296614D70034D0CA /* SongOptionsModal.swift in Sources */,
+				D0EBCE582953964C000493BC /* MainScreenViewModel.swift in Sources */,
+				D0E386E329637BFC0034D0CA /* SongModel.swift in Sources */,
+				D0E386DE296371520034D0CA /* SongsRowView.swift in Sources */,
+				D0EBCE2C29538959000493BC /* MainScreenView.swift in Sources */,
 				D0EBCE2A29538959000493BC /* KaraokeApp.swift in Sources */,
+				D0EBCE662953AA5C000493BC /* StartView.swift in Sources */,
+				D0E386E82963891D0034D0CA /* SearchBarView.swift in Sources */,
+				D0E386FC296655420034D0CA /* SongLyrics.swift in Sources */,
+				D0E386DC296364DC0034D0CA /* CircleButtonView.swift in Sources */,
+				D0E386D7296354060034D0CA /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -415,8 +569,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Karaoke/Preview Content\"";
+				DEVELOPMENT_TEAM = J65CC3THFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Karaoke;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -425,9 +581,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -435,7 +590,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.powaznedziewczyny.Karaoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,8 +608,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Karaoke/Preview Content\"";
+				DEVELOPMENT_TEAM = J65CC3THFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Karaoke;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -461,9 +620,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -471,7 +629,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.powaznedziewczyny.Karaoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
