@@ -9,12 +9,9 @@ import SwiftUI
 
 struct StartView: View {
     
-    // MARK: - Properties
-   private(set) var viewModel = StartViewModel()
-    
     // MARK: - Views
     var body: some View {
-        Color("poglosHouse")
+        Color.theme.background
             .ignoresSafeArea(.all)
             .overlay(content)
     }
@@ -36,12 +33,10 @@ struct StartView: View {
     }
     
     private var continueButton: some View {
-        Button("Kontynuuj", action: viewModel.inputs.continueButton)
-    }
-
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            StartView(viewModel: StartViewModel())
+        NavigationLink(destination: MainScreenView()
+            .environmentObject(MainScreenViewModel())
+            .navigationBarHidden(true)) {
+            GreenButtonView(text: "Continue")
         }
     }
 }
